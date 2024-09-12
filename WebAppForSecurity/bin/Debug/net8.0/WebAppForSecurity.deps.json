@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WebAppForSecurity/1.0.0": {
+        "runtime": {
+          "WebAppForSecurity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebAppForSecurity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
