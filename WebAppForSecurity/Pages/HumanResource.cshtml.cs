@@ -4,12 +4,12 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace WebAppForSecurity.Pages
 {
-    [Authorize]
-    public class IndexModel : PageModel
+    [Authorize(Policy = "MustBelongToHRDeparment")]
+    public class HumanResourceModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
+        private readonly ILogger<HumanResourceModel> _logger;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        public HumanResourceModel(ILogger<HumanResourceModel> logger)
         {
             _logger = logger;
         }
