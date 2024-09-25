@@ -3,3 +3,6 @@ WebAppForSecurity/bin/
 .vs/ProjectEvaluation
 
 WebAppForSecurity/obj/Debug/
+Web Api/bin/
+Web Api/obj/
+WebAppForSecurity/obj/
